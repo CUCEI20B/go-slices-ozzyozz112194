@@ -6,20 +6,18 @@ func main() {
 
 	var number1 int
 	var number2 int
-	var number3 int
+
 	var total int = 0
 
-	fmt.Println("Cuantos numeros deseas")
 	fmt.Scanln(&number1)
-	number3 = number1 - 1
 
 	//slice
-	s := make([]int, 0, number3)
+	s := make([]int, 0, number1)
 	i := 0
 
-	for number3 >= i {
+	for number1 >= i {
 
-		fmt.Println("Ingresa los numeros")
+		println("Entrada:")
 		fmt.Scanln(&number2)
 		total += number2
 		s = append(s, number2)
@@ -31,6 +29,7 @@ func main() {
 	for _, v := range s {
 		fmt.Println(v)
 	}
-	print(total)
+	println("Salida:")
+	printlan(total)
 
 }
