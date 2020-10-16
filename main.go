@@ -30,6 +30,6 @@ func main() {
 		fmt.Println(v)
 	}
 	println("Salida:")
-	printlan(total)
+	println(total)
 
 }
