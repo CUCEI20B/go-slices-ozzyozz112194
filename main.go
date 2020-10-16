@@ -14,10 +14,10 @@ func main() {
 	//slice
 	s := make([]int, 0, number1)
 	i := 0
+	println("Entrada:")
 
-	for number1 >= i {
+	for number1-1 >= i {
 
-		println("Entrada:")
 		fmt.Scanln(&number2)
 		total += number2
 		s = append(s, number2)
