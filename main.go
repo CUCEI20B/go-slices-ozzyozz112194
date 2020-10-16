@@ -9,7 +9,6 @@ func main() {
 	var number3 int
 	var total int = 0
 
-	fmt.Println("Cuantos numeros deseas")
 	fmt.Scanln(&number1)
 	number3 = number1 - 1
 
@@ -19,7 +18,6 @@ func main() {
 
 	for number3 >= i {
 
-		fmt.Println("Ingresa los numeros")
 		fmt.Scanln(&number2)
 		total += number2
 		s = append(s, number2)
